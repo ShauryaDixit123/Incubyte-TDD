@@ -1,8 +1,8 @@
-All commands from root folder\n
+All commands from root folder
 
-Running testcases:\n
-cd test \n
-go test -bench=. 
+Running testcases:
+cd test ;
+go test -bench=.  ;
 
 Running program:
-go run .
+go run . ;
