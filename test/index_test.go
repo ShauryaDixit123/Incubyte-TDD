@@ -33,6 +33,15 @@ func TestSum(t *testing.T) {
 			num:         "//;1;1;3",
 			expected:    5,
 		},
+		{
+			description: "test_case_6",
+			num:         "//;",
+			expected:    0,
+		}, {
+			description: "test_case_6",
+			num:         "//;4",
+			expected:    4,
+		},
 	}
 
 	for _, tt := range cases {

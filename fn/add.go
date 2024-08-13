@@ -9,6 +9,9 @@ import (
 func Add(s string) (int, error) {
 	sap := ","
 	if strings.Contains(s, "//") {
+		if len(s) < 3 {
+			return 0, errors.New("minimun length required is 3")
+		}
 		sap = string(s[2])
 		s = strings.Trim(s, "/")
 	}
