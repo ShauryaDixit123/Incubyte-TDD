@@ -1,7 +1,7 @@
-All commands from root folder 
+All commands from root folder\n
 
-Running testcases:
-cd test
+Running testcases:\n
+cd test \n
 go test -bench=. 
 
 Running program:
